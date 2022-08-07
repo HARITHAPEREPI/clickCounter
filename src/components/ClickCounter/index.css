@@ -1,0 +1,76 @@
+.click-counter-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.main-heading {
+  color: #2d3a35;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    color: #2d3a35;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+  }
+}
+
+.counter {
+  color: #c20a72;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .counter {
+    color: #c20a72;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+}
+
+.paragraph {
+  color: #2d3a35;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .paragraph {
+    color: #2d3a35;
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin: 10px;
+    text-align: center;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+.click-button {
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
